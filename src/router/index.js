@@ -7,7 +7,8 @@ import PageB from '@/components/pageB'
 
 Router.prototype.goBack = function () {
   this.isBack = true
-  window.history.go(-1)
+ // debugger
+  this.go(-1)
 }
 
 Vue.use(Router)
@@ -30,5 +31,4 @@ const router = new Router({
     }
   ]
 })
-
 export default router
