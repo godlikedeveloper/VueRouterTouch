@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <div class="left" @click="goback"><</div>
+      <div class="left" @click="goback">&lt;</div>
       <div class="title">页面标题B</div>
     </div>
     <div>
